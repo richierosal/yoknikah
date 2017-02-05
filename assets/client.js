@@ -671,10 +671,10 @@ var Footer = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Header_css__ = __webpack_require__(576);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Header_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__Header_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Link__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__data_images_logo_png__ = __webpack_require__(564);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__data_images_logo_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__data_images_logo_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__data_images_logo_2x_png__ = __webpack_require__(565);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__data_images_logo_2x_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__data_images_logo_2x_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__logo_png__ = __webpack_require__(564);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__logo_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__logo_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__logo_2x_png__ = __webpack_require__(565);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__logo_2x_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__logo_2x_png__);
 
 
 
@@ -727,13 +727,13 @@ var Header = function (_React$Component) {
           },
           __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_8__Link__["a" /* default */],
-            { className: __WEBPACK_IMPORTED_MODULE_7__Header_css___default.a.brand, to: '/home', __source: {
+            { className: __WEBPACK_IMPORTED_MODULE_7__Header_css___default.a.brand, to: '/', __source: {
                 fileName: _jsxFileName,
                 lineNumber: 22
               },
               __self: this
             },
-            __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_9__data_images_logo_png___default.a, srcSet: __WEBPACK_IMPORTED_MODULE_10__data_images_logo_2x_png___default.a + ' 2x', width: '38', height: '38', alt: 'React', __source: {
+            __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_9__logo_png___default.a, srcSet: __WEBPACK_IMPORTED_MODULE_10__logo_2x_png___default.a + ' 2x', width: '38', height: '38', alt: 'React', __source: {
                 fileName: _jsxFileName,
                 lineNumber: 23
               },
@@ -1218,7 +1218,7 @@ var title = 'Home';
 
 /* harmony default export */ __webpack_exports__["default"] = {
 
-  path: '/home',
+  path: '/',
 
   action: function action() {
     return {
@@ -2357,14 +2357,14 @@ Layout.propTypes = {
 /***/ 564:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "data/images/logo.png?62b330ae";
+module.exports = __webpack_require__.p + "components/Header/logo.png?62b330ae";
 
 /***/ }),
 
 /***/ 565:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "data/images/logo@2x.png?7ab09c58";
+module.exports = __webpack_require__.p + "components/Header/logo@2x.png?7ab09c58";
 
 /***/ }),
 
